@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     color: #D90429;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar {
@@ -35,7 +36,6 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    image-rendering: crisp-edges;
 }
 
 .tranparent {
@@ -43,7 +43,7 @@ body {
     width: 650px;
     height: 600px;
     background-color: #EDF2F4;
-    opacity: 0.5;
+    opacity: 0.3;
     z-index: 1;
     border-radius: 30px;
     border: solid white 1px;
@@ -72,7 +72,6 @@ button {
     margin: 15px;
 }
 
-
 button:hover {
     background-color: #2B2D42;
     color: #EDF2F4;
@@ -84,4 +83,20 @@ button:hover {
     color: #2B2D42;
     padding: 10px;
     font-size: 60px;
+}
+
+a:hover {
+    color: #EDF2F4;
+}
+
+#center:hover {
+    background-color: transparent;
+    color: #EDF2F4;
+    border: solid #EDF2F4 1px;
+    border-radius: 5px;
+}
+
+#center{
+    color: #202233;
+    border: #202233 solid 1px;
 }
