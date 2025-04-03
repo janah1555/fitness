@@ -1,8 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    color: #D90429;
+    color: #202233;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a , button {
+    color: #D90429;
 }
 
 .navbar {
@@ -16,52 +20,6 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 gap: 20px;
-}
-
-.center {
-    width: 650px ;
-    height:700px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around ;
-    gap: 20px ;
-    position: absolute;
-    margin: 30px;
-
-}
-
-body {
-    margin: 0;
-    height: 100vh; 
-    background-image: url('https://i.pinimg.com/736x/c4/8e/61/c48e6121dc2427b5fc39ed9168b87e4e.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.transparent {
-    position: relative;
-    width: 650px;
-    height: 600px;
-    background-color: #EDF2F4;
-    opacity: 0.3;
-    z-index: 1;
-    border-radius: 30px;
-    border: solid white 1px;
-}
-
-.overlaytext {
-    position: absolute;
-    z-index: 3;
-}
-
-.overlay {
-    position: absolute;
-    width: 650px;
-    height: 600px;
-    z-index: 2;
-    border-radius: 30px;
-    border: solid white 1px ;
 }
 
 button {
@@ -90,14 +48,50 @@ a:hover {
     color: #EDF2F4;
 }
 
-#center:hover {
-    background-color: transparent;
-    color: #EDF2F4;
-    border: solid #EDF2F4 1px;
-    border-radius: 5px;
+
+.center {
+    width: 1000x ;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    gap: 20px ;
+    position: absolute;
+    margin: 30px;
+
 }
 
-#center{
-    color: #202233;
-    border: #202233 solid 1px;
+body {
+    margin: 0;
+    height: 100vh; 
+    background-image: url('https://i.pinimg.com/736x/c4/8e/61/c48e6121dc2427b5fc39ed9168b87e4e.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.transparent {
+    position: relative;
+    width: 1000px;
+    height: 200px;
+    background-color: #EDF2F4;
+    opacity: 0.3;
+    z-index: 1;
+    border-radius: 30px;
+    border: solid white 1px;
+}
+
+.overlaytext {
+    position: absolute;
+    z-index: 3;
+    margin: 10px;
+}
+
+.overlay {
+    position: absolute;
+    width: 1000px;
+    height: 200px;
+    z-index: 2;
+    border-radius: 30px;
+    border: solid white 1px ;
 }
